@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.container-fluid{
+  background-color: rgb(107, 143, 229);
+}
+.search{
+  display: flex;
+}
+.form-outline{
+  display: flex;
+  justify-content: space-evenly;
+}
+.form-outline span{
+  margin-right: 10px;
+}
+.icon{
+  margin-top: 10px;
+  margin-left: 10px;
+  color: white;
+  cursor: pointer;
+}
